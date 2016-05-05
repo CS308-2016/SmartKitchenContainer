@@ -1,0 +1,16 @@
+Hello,
+In this video I am going to show you how to get our project up and running. 
+So, so to get started with the project you need to setup each component according to steps I descrie now.
+
+First, we get started with configuring R-Pi, the key component.
+For this you should have your machine connected on same WiFi as the R-Pi and know it's IP address. We have a link to find that in desciption of the video.  In my case the IP is *.*.*.* 
+Now ssh into R-Pi using 
+'ssh pi@...'
+
+I have placed the code in ~/Desktop/project/rpi-rc522-read-only/rc522/smart_kitchen
+
+So cd in that folder and run
+'python -m SimpleHTTPServer'
+
+
+
